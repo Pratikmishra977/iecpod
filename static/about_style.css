@@ -1,0 +1,47 @@
+
+.about_area{
+    background: white url("images/about_area_back.png");
+    background-size: cover;
+	background-position:center ;
+	padding:2em ;
+
+
+}
+.single_about_info{
+    margin:5em;
+}
+
+.single_about_info h3{
+    font-size:5rem ;
+}
+
+.single_about_info p{
+    font-weight:400 ;
+	display:block ;
+	font-size:2rem ;
+	margin:3.5em;
+    margin-top:2em;
+    margin-bottom:0em;
+}
+
+.boxed_btn{
+
+    display:inline-block ;
+	font-size:2rem;
+	text-transform: uppercase;
+	background: #22F;
+	border-radius: 25px;
+	padding: .5em 1.25em ;
+	color: white ;
+	margin-top:2.5em;
+
+}
+
+.boxed_btn:hover ,
+.boxed_btn:focus{
+	color:#22F;
+	background:white;
+	border:1px solid #22F ;
+	text-decoration: none;
+
+}

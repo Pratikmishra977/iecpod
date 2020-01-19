@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IECPOD | STAFF</title>
+</head>
+<body>
+    <div id="container">
+        <!-- Header -->
+        <div id="header">
+            <div id="branding">
+                <h1 id="site-name"><a href="#">IECPOD STAFF </a></h1>
+            </div>
+            <div id="user-tools">
+                Welcome,
+                <strong>{{ user.name }}</strong>.
+                <a href="#">Update detail</a> /
+                <a href="#">Add Course</a> /
+                <a href="#">Change password</a> /
+
+                <a href="#">Log out</a>
+
+            </div>
+        </div>
+        <!-- END Header -->
+        <div class ="row">
+            <div class="col-md-4">
+                <div class="media">
+                    <img class="img-circle account-img" src="{{ user.image.url }}">
+                    <div class="media-body">
+                        <h2 class="account-heading">{{ user.name }}</h2>
+                        <p class="text-secondary">{{ user.email }}</p>
+                     </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

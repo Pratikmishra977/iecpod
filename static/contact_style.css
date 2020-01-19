@@ -1,0 +1,40 @@
+.contact-section{
+    background: white url("images/contact_us_back.png");
+    background-size: cover;
+	background-position:center ;
+}
+.d-none{
+    margin:2em ;
+}
+
+.row{
+    margin:2em ;
+
+}
+
+.contact-title{
+    text-align: left;
+    margin-left:11em;
+    font-weight:400;
+}
+
+.form-group button{
+	font-size:1.5rem;
+	text-transform: uppercase;
+	border:1px solid #00BFFF ;
+    background: white;
+    padding: 1em 1.5em;
+    color:#00BFFF;
+
+}
+.form-group button:hover ,
+.form-group button:focus{
+	color:white;
+	background:#00BFFF;
+	text-decoration: none;
+
+}
+
+.media-body{
+
+}
